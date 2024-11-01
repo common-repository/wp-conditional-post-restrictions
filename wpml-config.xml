@@ -1,0 +1,10 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="0">vpr_conditions</custom-type>
+	</custom-types>
+	<custom-fields>
+		<custom-field action="ignore">vpr_conditions</custom-field>
+		<custom-field action="ignore">_vpr_selected_post_types</custom-field>
+		<custom-field action="ignore">_vpr_what_happens_when_the_conditions_are_met</custom-field>
+	</custom-fields>
+</wpml-config>

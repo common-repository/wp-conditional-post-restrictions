@@ -1,0 +1,705 @@
+# Copyright (C) 2024 WP Super Admins
+# This file is distributed under the same license as the WP Conditional Post Restrictions plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Conditional Post Restrictions 1.2.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wrapper-plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-22T12:16:13+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#. Plugin Name of the plugin
+msgid "WP Conditional Post Restrictions"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpsuperadmins.com/plugins/wp-conditional-post-restrictions/?utm_source=wp-admin&utm_campaign=plugins-list&utm_medium=plugin-link"
+msgstr ""
+
+#. Description of the plugin
+msgid "Restricts posts based on different conditions"
+msgstr ""
+
+#. Author of the plugin
+msgid "WP Super Admins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpsuperadmins.com/plugins/wp-conditional-post-restrictions/?utm_source=wp-admin&utm_campaign=plugins-list&utm_medium=web&utm_term=author-link"
+msgstr ""
+
+#: backend/settings-page.php:38
+msgid "Tutorials"
+msgstr ""
+
+#: backend/teasers.php:79
+msgid "<p><b>Go Premium</b>. You can use all conditions, including: Drip or Paywall content, restrict by user information (zip, state, city, address), date ranges, purchase history, integration with LearnDash/LearnPress/TutorLMS, and more. <a href=\"%s\" target=\"_blank\" class=\"wpcpr-go-premium-link\">%s</a></p>"
+msgstr ""
+
+#: backend/teasers.php:125
+#: modules/core/inc/restrictions-post-type.php:48
+msgid "Restrictions rules"
+msgstr ""
+
+#: backend/teasers.php:132
+#: modules/core/inc/restrictions-post-type.php:114
+msgid "Enable content restrictions?"
+msgstr ""
+
+#: backend/teasers.php:134
+msgid "<p>The free version of the plugin only works with posts. This requires the premium version. <a href=\"%s\" target=\"_blank\" class=\"wpcpr-go-premium-link\">%s *</a></p>"
+msgstr ""
+
+#: backend/teasers.php:138
+msgid "* The offer to use the premium plugin for free is limited to 100 users"
+msgstr ""
+
+#: integrations/premium/woocommerce.php:52
+msgid "What happens when a WooCommerce product is restricted?"
+msgstr ""
+
+#: integrations/premium/woocommerce.php:62
+msgid "Hide SKU"
+msgstr ""
+
+#: integrations/premium/woocommerce.php:63
+msgid "Hide price"
+msgstr ""
+
+#: integrations/premium/woocommerce.php:64
+msgid "Hide add to cart"
+msgstr ""
+
+#: integrations/premium/woocommerce.php:65
+msgid "Hide reviews"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:48
+#: modules/core/wpcr/inc/condition.php:79
+msgid "="
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:49
+#: modules/core/wpcr/inc/condition.php:80
+msgid "!= (Not equal)"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:50
+#: modules/core/wpcr/inc/condition.php:81
+msgid "Equal to field"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:51
+#: modules/core/wpcr/inc/condition.php:82
+msgid "Not equal to field"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:52
+#: modules/core/wpcr/inc/condition.php:86
+msgid "<"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:53
+#: modules/core/wpcr/inc/condition.php:87
+msgid "<="
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:54
+#: modules/core/wpcr/inc/condition.php:88
+msgid ">"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:55
+#: modules/core/wpcr/inc/condition.php:89
+msgid ">="
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:56
+#: modules/core/wpcr/inc/condition.php:93
+msgid "Contains"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:57
+#: modules/core/wpcr/inc/condition.php:94
+msgid "Not contains"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:58
+#: modules/core/wpcr/inc/condition.php:95
+msgid "Appears in this list"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:59
+#: modules/core/wpcr/inc/condition.php:96
+msgid "Contains any of these keywords"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:105
+msgid "You can edit the content restrictions here. You can edit hundreds of items at once, auto complete cells, and copy paste."
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:122
+#: modules/core/backend/categories-fields.php:112
+#: modules/core/inc/restrictions-post-type.php:52
+msgid "Restrictions"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:126
+msgid "Disabled"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:127
+#: modules/core/inc/helpers.php:439
+msgid "Allow access"
+msgstr ""
+
+#: integrations/wp-sheet-editor.php:128
+#: modules/core/inc/helpers.php:440
+msgid "Restrict access"
+msgstr ""
+
+#: modules/core/backend/categories-fields.php:60
+#: modules/core/views/backend/category-edit-fields-views.php:18
+msgid "Posts and category restrictions"
+msgstr ""
+
+#: modules/core/backend/categories-fields.php:62
+#: modules/core/views/backend/category-edit-fields-views.php:30
+msgid "Enable the conditional restrictions?"
+msgstr ""
+
+#: modules/core/backend/categories-fields.php:73
+#: modules/core/views/backend/category-edit-fields-views.php:33
+msgid "Apply restrictions to"
+msgstr ""
+
+#: modules/core/backend/categories-fields.php:83
+#: modules/core/inc/restrictions-post-type.php:170
+#: modules/core/views/backend/category-edit-fields-views.php:47
+msgid "What happens when the conditions are met?"
+msgstr ""
+
+#: modules/core/backend/categories-fields.php:114
+msgid "Edit restriction conditions"
+msgstr ""
+
+#: modules/core/backend/settings.php:31
+#: modules/core/inc/helpers.php:188
+msgid "Posts restrictions"
+msgstr ""
+
+#: modules/core/backend/settings.php:53
+msgid "Conditional Post Restrictions"
+msgstr ""
+
+#: modules/core/backend/settings.php:56
+msgid "Instructions"
+msgstr ""
+
+#: modules/core/backend/settings.php:60
+msgid "Enable restrictions"
+msgstr ""
+
+#: modules/core/backend/settings.php:65
+msgid "Global restrictions"
+msgstr ""
+
+#: modules/core/backend/settings.php:70
+msgid "Don't apply restrictions for these user roles"
+msgstr ""
+
+#: modules/core/backend/settings.php:74
+msgid "What happens when the post is restricted?"
+msgstr ""
+
+#: modules/core/backend/settings.php:78
+msgid "Redirect to this url"
+msgstr ""
+
+#: modules/core/backend/settings.php:84
+#: modules/core/backend/settings.php:97
+msgid "Error message"
+msgstr ""
+
+#: modules/core/backend/settings.php:93
+msgid "What happens when category is restricted?"
+msgstr ""
+
+#: modules/core/backend/settings.php:103
+#: modules/core/inc/helpers.php:435
+msgid "Redirect to another url"
+msgstr ""
+
+#: modules/core/backend/settings.php:109
+msgid "Select page"
+msgstr ""
+
+#: modules/core/backend/settings.php:114
+msgid "Remove restricted posts from menus?"
+msgstr ""
+
+#: modules/core/inc/conditions/buddypress/user-belongs-to-group.php:25
+msgid "User belongs to group"
+msgstr ""
+
+#: modules/core/inc/conditions/date/full-date.php:10
+msgid "Date (YYYY-MM-DD)"
+msgstr ""
+
+#: modules/core/inc/conditions/date/hour.php:13
+msgid "Hour of the day (number from 0 to 23)"
+msgstr ""
+
+#: modules/core/inc/conditions/date/month-day.php:13
+msgid "Day of the month (number from 1 to 31)"
+msgstr ""
+
+#: modules/core/inc/conditions/date/week-day.php:13
+msgid "Day of the week"
+msgstr ""
+
+#: modules/core/inc/conditions/date/week-day.php:33
+msgid "Select"
+msgstr ""
+
+#: modules/core/inc/conditions/edd/gross-revenue-from-the-customer.php:17
+#: modules/core/inc/conditions/woocommerce/gross-revenue-from-the-customer.php:17
+msgid "Gross revenue from the customer"
+msgstr ""
+
+#: modules/core/inc/conditions/edd/total-orders-from-the-customer.php:17
+#: modules/core/inc/conditions/woocommerce/total-orders-from-the-customer.php:17
+msgid "Total orders from the customer"
+msgstr ""
+
+#: modules/core/inc/conditions/edd/user-has-purchased-product.php:24
+#: modules/core/inc/conditions/woocommerce/user-has-purchased-product.php:24
+msgid "User has purchased product"
+msgstr ""
+
+#: modules/core/inc/conditions/givewp/days-after-donation.php:16
+msgid "Days after making a donation"
+msgstr ""
+
+#: modules/core/inc/conditions/givewp/total-donations-from-user.php:17
+msgid "User donations count"
+msgstr ""
+
+#: modules/core/inc/conditions/givewp/total-money-donated-by-user.php:17
+msgid "User donations amount"
+msgstr ""
+
+#: modules/core/inc/conditions/givewp/user-has-donated-for-form.php:24
+msgid "User has donated for form"
+msgstr ""
+
+#: modules/core/inc/conditions/learndash/user-enrolled-course.php:25
+#: modules/core/inc/conditions/learnpress/user-enrolled-course.php:25
+#: modules/core/inc/conditions/tutorlms/user-enrolled-course.php:25
+msgid "User is enrolled to course"
+msgstr ""
+
+#: modules/core/inc/conditions/learndash/user-total-enrolled-courses.php:18
+#: modules/core/inc/conditions/learnpress/user-total-enrolled-courses.php:18
+#: modules/core/inc/conditions/tutorlms/user-total-enrolled-courses.php:18
+msgid "User enrolled courses count"
+msgstr ""
+
+#: modules/core/inc/conditions/posts/ip.php:14
+msgid "IP"
+msgstr ""
+
+#: modules/core/inc/conditions/posts/is-the-post-author.php:10
+msgid "Yes"
+msgstr ""
+
+#: modules/core/inc/conditions/posts/is-the-post-author.php:11
+msgid "No"
+msgstr ""
+
+#: modules/core/inc/conditions/posts/is-the-post-author.php:15
+msgid "Is the post author"
+msgstr ""
+
+#: modules/core/inc/conditions/posts/post-publish-days.php:13
+msgid "How many days ago was the post published?"
+msgstr ""
+
+#: modules/core/inc/conditions/posts/post-viewed-count-daily.php:13
+msgid "Post viewed count (daily)"
+msgstr ""
+
+#: modules/core/inc/conditions/posts/post-viewed-count-monthly.php:13
+msgid "Post viewed count (monthly)"
+msgstr ""
+
+#: modules/core/inc/conditions/posts/post-viewed-count-weekly.php:13
+msgid "Post viewed count (weekly)"
+msgstr ""
+
+#: modules/core/inc/conditions/posts/referer.php:12
+msgid "Referer"
+msgstr ""
+
+#: modules/core/inc/conditions/posts/url.php:12
+msgid "Url"
+msgstr ""
+
+#: modules/core/inc/conditions/user/days-since-registration-date.php:13
+msgid "Days since registration date"
+msgstr ""
+
+#: modules/core/inc/conditions/user/email.php:11
+msgid "User email"
+msgstr ""
+
+#: modules/core/inc/conditions/user/user-role.php:13
+msgid "User role"
+msgstr ""
+
+#: modules/core/inc/conditions/user/user-role.php:21
+msgid "Select role"
+msgstr ""
+
+#: modules/core/inc/conditions/user/users.php:20
+#: modules/core/inc/helpers.php:262
+msgid "User"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/billing-city.php:13
+msgid "Billing city"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/billing-company.php:13
+msgid "Billing company"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/billing-country.php:16
+msgid "Billing country"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/billing-country.php:27
+msgid "Select billing country"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/billing-email.php:13
+msgid "Billing email"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/billing-state.php:13
+msgid "Billing state"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/billing-zipcode.php:13
+msgid "Billing zipcode"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/shipping-city.php:13
+msgid "Shipping city"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/shipping-company.php:13
+msgid "Shipping company"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/shipping-country.php:16
+msgid "Shipping Country"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/shipping-country.php:27
+msgid "Select shipping country"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/shipping-state.php:13
+msgid "Shipping state"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/shipping-zipcode.php:13
+msgid "Shipping zipcode"
+msgstr ""
+
+#: modules/core/inc/conditions/woocommerce/total-reviews-from-customer.php:17
+msgid "Total reviews from the customer"
+msgstr ""
+
+#: modules/core/inc/conditions/wpultimo/current-site-plan.php:14
+msgid "Plan of the current site"
+msgstr ""
+
+#: modules/core/inc/conditions/wpultimo/sites-count.php:15
+msgid "User sites count"
+msgstr ""
+
+#: modules/core/inc/conditions/wpultimo/user-site-plan.php:14
+msgid "Plan of the site owned by the current user"
+msgstr ""
+
+#: modules/core/inc/helpers.php:189
+msgid "Add new restrictions"
+msgstr ""
+
+#: modules/core/inc/helpers.php:190
+msgid "Edit restrictions"
+msgstr ""
+
+#: modules/core/inc/helpers.php:259
+#: modules/core/inc/helpers.php:447
+msgid "Posts"
+msgstr ""
+
+#: modules/core/inc/helpers.php:265
+msgid "WooCommerce"
+msgstr ""
+
+#: modules/core/inc/helpers.php:268
+msgid "BuddyPress"
+msgstr ""
+
+#: modules/core/inc/helpers.php:271
+msgid "LearnDash"
+msgstr ""
+
+#: modules/core/inc/helpers.php:274
+msgid "LearnPress"
+msgstr ""
+
+#: modules/core/inc/helpers.php:277
+msgid "TutorLMS"
+msgstr ""
+
+#: modules/core/inc/helpers.php:280
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: modules/core/inc/helpers.php:283
+msgid "GiveWP"
+msgstr ""
+
+#: modules/core/inc/helpers.php:286
+msgid "Date"
+msgstr ""
+
+#: modules/core/inc/helpers.php:289
+msgid "WP Ultimo"
+msgstr ""
+
+#: modules/core/inc/helpers.php:306
+msgid "Guest customer"
+msgstr ""
+
+#: modules/core/inc/helpers.php:311
+msgid "Registered customer"
+msgstr ""
+
+#: modules/core/inc/helpers.php:426
+msgid "Redirect to url"
+msgstr ""
+
+#: modules/core/inc/helpers.php:427
+msgid "Remove the content and show message"
+msgstr ""
+
+#: modules/core/inc/helpers.php:428
+msgid "Show fragment of the content and show message after fragment"
+msgstr ""
+
+#: modules/core/inc/helpers.php:432
+msgid "Show error 404"
+msgstr ""
+
+#: modules/core/inc/helpers.php:433
+msgid "Show the normal page without posts"
+msgstr ""
+
+#: modules/core/inc/helpers.php:434
+msgid "Show an error message"
+msgstr ""
+
+#: modules/core/inc/helpers.php:436
+msgid "Show the content of another page"
+msgstr ""
+
+#: modules/core/inc/helpers.php:444
+msgid "None"
+msgstr ""
+
+#: modules/core/inc/helpers.php:445
+msgid "Category"
+msgstr ""
+
+#: modules/core/inc/helpers.php:446
+msgid "Category and posts"
+msgstr ""
+
+#: modules/core/inc/restrictions-post-type.php:134
+msgid "Select post types"
+msgstr ""
+
+#: modules/core/inc/restrictions-post-type.php:191
+msgid "Redirect to this URL when restricted"
+msgstr ""
+
+#: modules/core/inc/restrictions-post-type.php:232
+msgid "This setting is inherited from the category"
+msgstr ""
+
+#: modules/core/views/backend/category-edit-fields-views.php:63
+#: modules/core/wpcr/views/backend/settings-views.php:98
+msgid "Conditions"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:18
+msgid "Guest user"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:29
+msgid "By default, we will not apply restrictions for administrators, editors, and any user with the capability edit_others_posts."
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:59
+msgid "You can enter a full URL or a path (for example: /test/)"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:75
+msgid "Premium: "
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:79
+msgid "Individual post restrictions: You will see the option to apply restrictions when you create or edit a post in the post editor."
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:80
+msgid "Global restrictions: You can restrict entire post types using a global settings page"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:81
+msgid "Category and Tags restrictions: You can restrict category pages (listings)"
+msgstr ""
+
+#: modules/core/views/frontend/custom-restricted-object-content.php:7
+msgid "Sorry, you are not allowed to view this page"
+msgstr ""
+
+#: modules/core/wpcr/inc/condition.php:285
+msgid "value 1; value 2; ... etc"
+msgstr ""
+
+#: modules/core/wpcr/inc/condition.php:288
+msgid "Keyword 1; keyword 2; ... etc"
+msgstr ""
+
+#: modules/core/wpcr/inc/enqueues.php:13
+msgid "You have added a large number of AND conditions. Are you sure these conditions will be met together? If not, you should add them as OR conditions."
+msgstr ""
+
+#: modules/core/wpcr/inc/enqueues.php:14
+msgid "Condition"
+msgstr ""
+
+#: modules/core/wpcr/inc/enqueues.php:15
+#: modules/core/wpcr/views/backend/conditions-metaboxes-html.php:59
+msgid "Group"
+msgstr ""
+
+#: modules/core/wpcr/inc/enqueues.php:16
+msgid "Go to conditions list"
+msgstr ""
+
+#: modules/core/wpcr/inc/init.php:135
+msgid "Invalid user role"
+msgstr ""
+
+#: modules/core/wpcr/inc/init.php:156
+msgid "Invalid post type deleting"
+msgstr ""
+
+#: modules/core/wpcr/inc/init.php:163
+msgid "An error ocurred while deleting"
+msgstr ""
+
+#: modules/core/wpcr/inc/init.php:167
+msgid "Condition succefully deleted"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/conditions-metaboxes-html.php:45
+msgid "Add 'Or' group"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/conditions-metaboxes-html.php:110
+msgid "condition"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/settings-views.php:15
+msgid "The conditions are deactivated. Check this option and save to activate them"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/settings-views.php:60
+msgid "(Untitled condition)"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/settings-views.php:72
+msgid "Edit"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/settings-views.php:73
+msgid "Delete"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/settings-views.php:81
+msgid "delete_"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/settings-views.php:87
+msgid "Active"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/settings-views.php:87
+msgid "Inactive"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/settings-views.php:97
+msgid "Title"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/settings-views.php:99
+msgid "Add conditions"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/settings-views.php:111
+msgid "Status"
+msgstr ""
+
+#: modules/core/wpcr/views/backend/settings-views.php:112
+msgid "Created"
+msgstr ""
+
+#: views/action-buttons.php:3
+msgid "My license"
+msgstr ""
+
+#: views/action-buttons.php:8
+msgid "Buy premium plugin"
+msgstr ""
+
+#: views/action-buttons.php:11
+msgid "Need help? Contact us"
+msgstr ""
+
+#: views/action-buttons.php:16
+msgid ""
+"<b style=\" font-size: 16px; \">Attention: Use our PREMIUM PLUGIN FOR FREE for one year.</b>\n"
+"\t\t\t<br>We only ask you to report to us any feedback or features that you need so we can improve the plugin. This offer will end on October 31st, 2020 and it's limited to 100 users."
+msgstr ""
+
+#: wp-conditional-post-restrictions.php:67
+msgid "Try Premium Plugin for FREE - 7 Days"
+msgstr ""
+
+#: wp-conditional-post-restrictions.php:72
+msgid "Use Premium Plugin for FREE for 1 YEAR"
+msgstr ""
